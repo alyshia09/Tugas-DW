@@ -1,0 +1,160 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Open+Sans:wght@400;600&display=swap');
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #333;
+    background-image:url('https://th.bing.com/th/id/R.eda84ebfb77430949ab60e486a1de92c?rik=lk%2b2QUduH3sCzA&riu=http%3a%2f%2f2.bp.blogspot.com%2f-79CXTwMNJpI%2fUVHIWuGzUkI%2fAAAAAAAAAI4%2fivaYxbp2VNs%2fs1600%2fUniversitas%2bPancasila%2bJakarta.jpg&ehk=XF7lwDt8LR5HO3iZk%2b93V%2bXI9br6HFrhbOk1T%2b83qd4%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px; 
+    height: auto;
+    float: left; /* Posisi logo di kiri */
+    margin-right: 20px; /* Ruang antara logo dan teks */
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: #87cfeb0f; 
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 100px; /*untuk ngukur ukuran logo */
+    margin-right: 15px; /* jarak antara logo dan text */
+  }
+  
+  .menu {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  li {
+    margin-left: 20px;
+  }
+  
+  li a {
+    text-decoration: none;
+    color: rgb(5, 4, 4);
+    font-weight: bold;
+  }
+  
+  
+
+/* Hero Section */
+.hero {
+    background-color: #79add0b2;
+    color: #132745;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    transition: font-size 0.7s ease-in-out;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Content Section */
+.content {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.content h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #dde4ea;
+}
+
+.content p {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #e9f0f1;
+}
+
+/* Footer */
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 24px;
+    }
+
+    .content h3 {
+        font-size: 20px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+/* Content Grid Layout */
+.content .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.content .item {
+    background-color: #adbabede;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.content .item h4 {
+    font-size: 20px;
+    color: #515151;
+}
+
+.content .item p {
+    font-size: 14px;
+    color: #e9f5f6;
+}
