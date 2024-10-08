@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-image: url(https://i.pinimg.com/564x/32/6c/a1/326ca1b35d3ca743181e6d24572da001.jpg);
+    background-size:cover;
+}
+
+h1{
+    text-align: center;
+    color: #c9995f;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2, h3 {
+    color: #d8ac75;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#session-container {
+    margin-bottom: 20px;
+    
+}
+
+#session-container input {
+    margin-right: 10px;
+}
+
+form, .buku {
+    margin-bottom: 20px;
+}
+
+input {
+    margin: 5px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+    border-radius: 10px;
+    background-color: #eedaa766;
+}
+
+button {
+    padding: 8px 15px;
+    background-color: #bdc3ca;
+    color: #fff;
+    border: 10px;;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover {
+    background-color: #8a7750;
+}
+
+#daftar-buku, #buku-favorit {
+    border: 1px solid #ffffffd5;
+    padding: 10px;
+    background-color: #eadcbbcf;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#form-tambah-buku {
+    background-color: rgba(250, 235, 215, 0.368);
+}
+
+.buku {
+    border-bottom: 1px solid #eeeeeeb3;
+    padding: 10px 0;
+}
+
+.buku:last-child {
+    border-bottom: none;
+}
+
+.buku p {
+    margin: 0;
+}
+
+.buku button {
+    margin-top: 10px;
+}
